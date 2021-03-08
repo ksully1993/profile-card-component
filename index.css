@@ -227,7 +227,30 @@ body {
     box-shadow: 2px 2px 1px hsl(0, 0%, 59%);
   }
 }
-
+@media screen and (min-width: 800px) {
+  #bg-pattern-top {
+    height: 80%;
+    position: absolute;
+    left: -175px;
+    top: -200px;
+  }
+  #bg-pattern-bottom {
+    height: 80%;
+    position: absolute;
+    bottom: -250px;
+    right: -200px;
+  }
+  .card {
+    width: 325px;
+    height: 375px;
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 2px 2px 1px hsl(0, 0%, 59%);
+  }
+}
 @media screen and (max-width: 400px) and (min-height: 700px) {
   #bg-pattern-top {
     height: 80%;
